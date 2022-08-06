@@ -1,0 +1,59 @@
+# interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
+# print("/".join(interest)) # ,를 /로 변경해보자
+
+# interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
+# print("\n".join(interest))
+
+# string = "삼성전자/LG전자/Naver"
+# string.split("/")
+# print(string) #string을 list로 분리저장
+
+# data = [2, 4, 3, 1, 5, 10, 9]
+# data.sort()
+# print(data) #리스트 오름차순 정렬
+
+#딕셔너리 연습
+
+# temp = {"메로나":1000,"폴라포":1200,"빵빠레": 1800}
+# temp["죠스바"] = 1000
+# temp["월드콘"] = 1500
+# print(temp) #기본 딕셔너리 + 딕셔너리 추가
+
+# ice = {'메로나': 1000,
+#        '폴로포': 1200,
+#        '빵빠레': 1800,
+#        '죠스바': 1200,
+#        '월드콘': 1500}
+# del(ice["월드콘"])
+# print("메로나 가격",ice['메로나'])
+# print(ice)
+
+# inventory = {"메로나":[300,200],"비비빅": ["400,3"],"죠스바":["250,100"]}
+# iceCream = inventory["메로나"][0] # 메로나의 가격 
+# empty =  inventory["메로나"][1] # 재고출력
+# inventory["월드콘"] = [500,7]
+# print(inventory) # 월드콘 새로 추가
+# print(empty)
+# print(iceCream)
+#  
+# icecream1 = {'탱크보이': 1200, '폴라포': 1200, '빵빠레': 1800, '월드콘': 1500, '메로나': 1000}
+# print(icecream1.keys()) #키 값만 리스트로 출력
+# print(icecream1.values()) #값만 리스트로 출력
+
+# icecream = {'탱크보이': 1200, '폴라포': 1200, '빵빠레': 1800, '월드콘': 1500, '메로나': 1000}
+# print(sum(icecream.values())) # 가격의 총합
+
+# icecream2 = {'탱크보이': 1200, '폴라포': 1200, '빵빠레': 1800, '월드콘': 1500, '메로나': 1000}
+# new_product = {'팥빙수':2700, '아맛나':1000}
+
+# icecream2.update(new_product) #업데이트 메서드를 사용해 리스트 합치기
+# print(icecream2)
+
+# keys = ("apple", "pear", "peach")
+# vals = (300, 250, 400)
+# print(dict(zip(keys,vals))) # 딕셔너리 형태로 각 튜플을 키와 벨류값으로 만듦
+
+date = ['09/05', '09/06', '09/07', '09/08', '09/09']
+close_price = [10500, 10300, 10100, 10800, 11000]
+close_table = dict(zip(date, close_price))
+print(close_table)
