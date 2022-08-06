@@ -1,5 +1,3 @@
-
-
 bag = int(input("가방 가격을 입력해주세요."))
 watch = int(input("신발 가격을 입력해주세요."))
 

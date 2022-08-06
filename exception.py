@@ -1,7 +1,4 @@
 
-
-
-
 try:
     f = open("새파일.txt","r")
 except Exception as e:

@@ -1,7 +1,5 @@
 
 from os import name
-
-
 class Dog:
     def __init__(self,name,age):
         self.name = name
@@ -24,7 +22,7 @@ class Cat:
         self.name = name
         self.address = address
     def hello(self):
-        return print("반가워여 저는 {0}이에여 사는곳은 {1} 이에여".format(self.name,self.address))
+        return print("반가워여 저는 {0}이에여 사는곳은 {1}입니다.".format(self.name,self.address))
     
-a = Cat("김고양","강원무실동")
+a = Cat("고양이","강원무실동")
 a.hello()
